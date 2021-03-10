@@ -1,0 +1,140 @@
+@media (min-width: 1000px) { 
+h2 {padding-top:5%;font-weight: bold; color:#0076bc;font-size: 40px; margin: 0; text-rendering: optimizeLegibility; line-height: 1.618em; font-family: arial,sans-serif;}
+h3 { font-weight: normal; font-size: 24px; color:#0076bc; margin: 0; line-height: 1.618em; font-family: arial,sans-serif;}
+body {
+	\\background-image: url(fon.jpg);
+	background-color:#fef5f1;
+
+}
+
+.mobile{
+display: none;
+}
+input{
+  color: #0076bc;
+}
+button{
+  margin-top:3%;
+  min-height:10%;
+  background:#0076bc;
+  color:#fff;
+  border:none;
+  position:relative;
+
+  font-size:1.6em;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+button:hover{
+  background:#0076bc;
+  color:#B0C4DE;
+}
+button:before,button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #B0C4DE;
+  transition:400ms ease all;
+}
+button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+button:hover:before,button:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+
+}
+
+
+
+@media (max-width: 999px) {
+
+ header{
+   height: 20%;
+ }
+
+  h2 {
+    padding-top: 10%;
+    font-weight: bold;
+    color: #0076bc;
+    font-size: 80px;
+    margin: 0;
+    text-rendering: optimizeLegibility;
+    line-height: 1.618em;
+    font-family: arial, sans-serif;
+  }
+
+  h3 {
+    font-weight: normal;
+    font-size: 60px;
+    color: #0076bc;
+    margin: 0;
+    line-height: 1.618em;
+    font-family: arial, sans-serif;
+  }
+
+  body {
+    background-image: url(fon.jpg);
+    background: white;
+  }
+
+  input {
+    height: 60px;
+    font-size: 60px;
+    color: #0076bc;
+  }
+
+  button {
+  font-size:60px;
+  width: 80%;
+  height: 7%;
+  margin-top: 5%;
+  background: #0076bc;
+  color: #fff;
+  border: none;
+  position: relative;
+
+
+  padding: 0 2em;
+  cursor: pointer;
+  transition: 800ms ease all;
+  outline:none;
+}
+button:hover{
+  background:#fff;
+  color:#0076bc;
+}
+button:before,button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #B0C4DE;
+  transition:400ms ease all;
+}
+button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+button:hover:before,button:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+}
+
+
+
+
